@@ -23,13 +23,13 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           Column(
             children: [
-              Icon(Icons.call),
+              Icon(Icons.newspaper),
               Text("Call"),
             ],
           ),
           Column(
             children: [
-              Icon(Icons.call),
+              Icon(Icons.percent),
               Text("Call"),
             ],
           )
