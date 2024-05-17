@@ -24,14 +24,14 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           Column(
             children: [
-              Icon(Icons.newspaper),
-              Text("Document"),
+              Icon(Icons.share),
+              Text("Share"),
             ],
           ),
           Column(
             children: [
-              Icon(Icons.percent),
-              Text("Percent"),
+              Icon(Icons.route),
+              Text("Route"),
             ],
           ),
           Column(
