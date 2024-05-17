@@ -14,6 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(),
       body: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
           Column(
             children: [
@@ -24,13 +25,19 @@ class _HomeScreenState extends State<HomeScreen> {
           Column(
             children: [
               Icon(Icons.newspaper),
-              Text("Call"),
+              Text("Document"),
             ],
           ),
           Column(
             children: [
               Icon(Icons.percent),
-              Text("Call"),
+              Text("Percent"),
+            ],
+          ),
+          Column(
+            children: [
+              Icon(Icons.qr_code),
+              Text("Add"),
             ],
           )
         ],
